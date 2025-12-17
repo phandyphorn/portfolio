@@ -1,0 +1,5 @@
+{
+  "name": "DevFolio - Interactive AI Portfolio",
+  "description": "A high-performance, interactive portfolio featuring scroll animations and an integrated Gemini AI assistant to answer questions about the candidate's experience.",
+  "requestFramePermissions": []
+}
