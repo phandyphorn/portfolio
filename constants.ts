@@ -124,6 +124,6 @@ export const PROJECTS: Project[] = [
 
 export const SOCIALS: SocialLink[] = [
   { platform: "GitHub", url: "https://github.com/phandyphorn", icon: "github" },
-  { platform: "LinkedIn", url: "#", icon: "linkedin" },
-  { platform: "Twitter", url: "#", icon: "twitter" },
+  { platform: "LinkedIn", url: "https://www.linkedin.com/in/phandy-phorn-9815b3254/", icon: "linkedin" },
+  { platform: "Twitter", url: "https://x.com/PhandyPhorn", icon: "twitter" },
 ];
