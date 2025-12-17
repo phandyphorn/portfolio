@@ -4,7 +4,7 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import { PROJECTS } from './constants';
 import AnimatedSection from './components/AnimatedSection';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, Mail } from 'lucide-react';
 
 const Projects: React.FC = () => {
   return (
@@ -60,23 +60,34 @@ const Projects: React.FC = () => {
 
 const Contact: React.FC = () => {
   return (
-    <section className="py-20 px-4 md:px-8 bg-[#1a0b2e] border-t border-white/5">
+    <section id="contact" className="py-20 px-4 md:px-8 bg-[#1a0b2e] border-t border-white/5">
       <div className="max-w-4xl mx-auto text-center">
         <AnimatedSection>
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-white mb-6">
-            Ready to collaborate?
-          </h2>
-          <p className="text-slate-400 mb-8 max-w-xl mx-auto">
-            I'm currently available for freelance projects and full-time opportunities.
-            Let's build something amazing together.
-          </p>
-          <a 
-            href="mailto:phornphandy20@gmail.com"
-            className="inline-block px-8 py-3 bg-gradient-to-r from-primary to-purple-600 text-white font-bold rounded-full hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-1 transition-all"
-          >
-            Get in Touch
-          </a>
-          <p className="mt-12 text-slate-500 text-sm">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-white mb-6">
+              Get in Touch
+            </h2>
+            <p className="text-slate-400 mb-8 max-w-xl mx-auto">
+              I'm currently available for freelance projects and full-time opportunities.
+            </p>
+          </div>
+
+          <div className="inline-block relative group">
+            <div className="absolute inset-0 bg-gradient-to-r from-primary to-purple-600 rounded-3xl blur opacity-25 group-hover:opacity-50 transition-opacity duration-500"></div>
+            <div className="relative bg-[#0f0518] border border-white/10 rounded-3xl p-8 md:p-12 flex flex-col items-center gap-6">
+              <div className="p-4 rounded-full bg-[#1a0b2e] text-primary ring-1 ring-white/10">
+                <Mail size={48} />
+              </div>
+              <div className="text-center">
+                <p className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-2">Email Address</p>
+                <p className="text-2xl md:text-4xl font-bold text-white tracking-tight break-all">
+                  phornphandy20@gmail.com
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <p className="mt-20 text-center text-slate-500 text-sm">
             © {new Date().getFullYear()} DevFolio. Built with React & Tailwind.
           </p>
         </AnimatedSection>

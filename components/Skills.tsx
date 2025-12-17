@@ -1,7 +1,7 @@
 import React from 'react';
 import { SKILLS } from '../constants';
 import AnimatedSection from './AnimatedSection';
-import { Code, Server, Wrench, Users, MessageCircle, Puzzle, Palette, Sparkles, Database, Atom, Smartphone, Search, GitBranch, Github, Gitlab, GitCommit, Globe, Network, FileCode, Send, Layers } from 'lucide-react';
+import { Code, Server, Wrench, Users, MessageCircle, Puzzle, Palette, Sparkles, Database, Atom, Smartphone, Search, GitBranch, Github, Gitlab, GitCommit, Globe, Network, FileCode, Send, Layers, Layout } from 'lucide-react';
 
 const iconMap: Record<string, React.ReactNode> = {
   'code-2': <Code size={24} />,
@@ -25,6 +25,7 @@ const iconMap: Record<string, React.ReactNode> = {
   'file-code': <FileCode size={24} />,
   'send': <Send size={24} />,
   'layers': <Layers size={24} />,
+  'layout': <Layout size={24} />,
 };
 
 const SkillCard: React.FC<{ skill: typeof SKILLS[0]; index: number }> = ({ skill, index }) => (

@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
 
             {/* Animated Role */}
             <h2 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-400 mb-8 tracking-tight leading-none">
-              I'M A DEV<span className="text-white animate-pulse">|</span>
+              I'M A DEV
             </h2>
 
             {/* Description */}
@@ -65,6 +65,7 @@ const Hero: React.FC = () => {
                   <a
                     key={social.platform}
                     href={social.url}
+                    target="_blank"
                     className="w-10 h-10 rounded-full bg-[#1a0b2e] border border-white/10 flex items-center justify-center text-slate-400 hover:text-white hover:bg-primary hover:border-primary transition-all duration-300"
                     aria-label={social.platform}
                   >

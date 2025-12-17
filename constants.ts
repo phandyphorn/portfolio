@@ -10,6 +10,7 @@ export const PROFILE = {
 
 export const SKILLS: Skill[] = [
   { name: "React / Next.js / Vue.js", category: "frontend", level: 95, icon: "atom" },
+  { name: "HTML", category: "frontend", level: 95, icon: "layout" },
   { name: "JavaScript", category: "frontend", level: 95, icon: "file-code" },
   { name: "TypeScript", category: "frontend", level: 90, icon: "code-2" },
   { name: "Tailwind CSS", category: "frontend", level: 90, icon: "palette" },
@@ -84,7 +85,7 @@ export const PROJECTS: Project[] = [
     id: "2",
     title: "Vicity Website",
     description: "Vicity is your personal city guide, powered by AI to bring you the best of every city, tailored to what you love. Whether you're into history, food, or art, Vicity creates personalised itineraries in seconds. ",
-    tags: ["React", "Firebase", "PWA"],
+    tags: ["React", "CSS", "TanStack Query", "Swagger"],
     imageUrl: "https://i.imgur.com/Z6mLKZi.png",
     link: "https://vicity.ai/"
   },
@@ -100,7 +101,7 @@ export const PROJECTS: Project[] = [
     id: "4",
     title: "Vicity Mobile",
     description: "Vicity is your personal city guide, powered by AI to bring you the best of every city, tailored to what you love. Whether you're into history, food, or art, Vicity creates personalised itineraries in seconds in mobile app suport both ios and android.",
-    tags: ["React", "Tanstack Query", "Gerrit", "Postman"],
+    tags: ["Flutter", "Swagger", "Gerrit", "Postman"],
     imageUrl: "https://placehold.co/600x400/1a0b2e/ec4899?text=Mobile+App",
     link: "https://vicity.ai/"
   },
@@ -108,7 +109,7 @@ export const PROJECTS: Project[] = [
     id: "5",
     title: "Vicity Backend",
     description: "A productivity tool for remote teams featuring real-time collaboration and offline support.",
-    tags: ["React", "Firebase", "PWA"],
+    tags: ["Java", "PostgreSQL", "Swagger", "Postman", "Gerrit"],
     imageUrl: "https://placehold.co/600x400/1a0b2e/ec4899?text=Backend+API",
     link: "#"
   },
@@ -116,7 +117,7 @@ export const PROJECTS: Project[] = [
     id: "6",
     title: "Komjey Back Office",
     description: "A productivity tool for remote teams featuring real-time collaboration and offline support.",
-    tags: ["React", "Firebase", "PWA"],
+    tags: ["React", "Tanstack Query", "Gerrit"],
     imageUrl: "https://placehold.co/600x400/1a0b2e/ec4899?text=Back+Office",
     link: "#"
   },
