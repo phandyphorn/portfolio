@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
   const role = PROFILE.title.toUpperCase();
 
   return (
-    <section className="min-h-screen flex items-center relative overflow-hidden bg-gray-900 px-6 lg:px-12 pt-20 lg:pt-0">
+    <section className="min-h-screen flex items-center relative overflow-hidden bg-[#0f0518] px-6 lg:px-12 pt-20 lg:pt-0">
       {/* Background Gradients */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
         <div className="absolute top-[-20%] left-[-10%] w-[60%] h-[60%] bg-primary/10 rounded-full blur-[120px]" />
