@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
 
             {/* Animated Role */}
             <h2 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-400 mb-8 tracking-tight leading-none">
-              I'M A DEV
+              {role}
             </h2>
 
             {/* Description */}
