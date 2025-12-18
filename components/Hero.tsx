@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
   const role = PROFILE.title.toUpperCase();
 
   return (
-    <section className="min-h-screen flex items-center relative overflow-hidden bg-[#0f0518] px-6 lg:px-12 pt-20 lg:pt-0">
+    <section className="min-h-screen flex items-center relative overflow-hidden bg-gray-900 px-6 lg:px-12 pt-20 lg:pt-0">
       {/* Background Gradients */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
         <div className="absolute top-[-20%] left-[-10%] w-[60%] h-[60%] bg-primary/10 rounded-full blur-[120px]" />
@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
 
             {/* Animated Role */}
             <h2 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-400 mb-8 tracking-tight leading-none">
-              I'M A DEV
+              {role}
             </h2>
 
             {/* Description */}
